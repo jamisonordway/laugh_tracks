@@ -6,6 +6,6 @@ RSpec.describe 'User' do
     special_2 = Special.create(name: 'Idk', comedian_id: 1)
     visit('/comedians')
 
-    expect(page).to have_content()
+    expect(page).to have_content(2)
   end
 end
